@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Oui Design architecture identity mockup</title>
+  <desc id="desc">Architectural stationery, signage, plans and identity applications.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="30" stdDeviation="28" flood-color="#11100d" flood-opacity=".2"/>
+    </filter>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0v60" fill="none" stroke="#17130f" stroke-opacity=".08" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1100" fill="#ede7dc"/>
+  <rect width="1600" height="1100" fill="url(#grid)"/>
+  <rect x="118" y="150" width="600" height="760" fill="#fffaf0" filter="url(#shadow)"/>
+  <path d="M208 765h408V330H208z" fill="none" stroke="#17130f" stroke-width="4"/>
+  <path d="M286 765V507h160v258M208 507h408M286 330v177M446 330v177" fill="none" stroke="#17130f" stroke-width="4"/>
+  <text x="208" y="260" fill="#17130f" font-family="Georgia, serif" font-size="118">OUI</text>
+  <text x="214" y="305" fill="#b65324" font-family="Arial, Helvetica, sans-serif" font-size="24">DESIGN &amp; CONSTRUCTION</text>
+  <rect x="825" y="220" width="520" height="260" fill="#17130f" filter="url(#shadow)"/>
+  <text x="895" y="375" fill="#f7efe2" font-family="Georgia, serif" font-size="92">OUI</text>
+  <line x1="1100" y1="319" x2="1260" y2="319" stroke="#b65324" stroke-width="6"/>
+  <text x="898" y="420" fill="#cfc2b3" font-family="Arial, Helvetica, sans-serif" font-size="22">ARCHITECTURE / RENOVATION / INTERIORS</text>
+  <rect x="855" y="595" width="320" height="210" fill="#fffaf0" filter="url(#shadow)"/>
+  <rect x="1202" y="595" width="260" height="210" fill="#b65324" filter="url(#shadow)"/>
+  <text x="905" y="682" fill="#17130f" font-family="Georgia, serif" font-size="58">OUI</text>
+  <text x="905" y="735" fill="#51483d" font-family="Arial, Helvetica, sans-serif" font-size="19">BUSINESS CARD</text>
+  <text x="1252" y="690" fill="#fffaf0" font-family="Georgia, serif" font-size="56">OUI</text>
+  <text x="1251" y="739" fill="#fff2df" font-family="Arial, Helvetica, sans-serif" font-size="18">SITE SIGNAGE</text>
+  <circle cx="1260" cy="905" r="120" fill="#596247" opacity=".9"/>
+  <path d="M830 930h305" stroke="#17130f" stroke-width="4"/>
+  <path d="M922 880h212v50H922z" fill="#fffaf0" stroke="#17130f" stroke-width="3"/>
+  <text x="145" y="1010" fill="#17130f" font-family="Arial, Helvetica, sans-serif" font-size="28">IDENTITY / SIGNAGE / STATIONERY / ARCHITECTURAL APPLICATIONS</text>
+</svg>

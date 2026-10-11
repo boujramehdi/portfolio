@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Restaurant and cafe Moroccan hospitality brand mockup</title>
+  <desc id="desc">Menu, cup, packaging and tile-inspired visual identity.</desc>
+  <defs>
+    <pattern id="tile" width="120" height="120" patternUnits="userSpaceOnUse">
+      <rect width="120" height="120" fill="#f6ead8"/>
+      <path d="M60 10l50 50-50 50L10 60z" fill="none" stroke="#b65324" stroke-width="4" opacity=".42"/>
+      <circle cx="60" cy="60" r="12" fill="#596247" opacity=".65"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="28" stdDeviation="24" flood-color="#17130f" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1100" fill="url(#tile)"/>
+  <rect x="150" y="150" width="430" height="800" fill="#fffaf0" filter="url(#shadow)"/>
+  <text x="225" y="310" fill="#17130f" font-family="Georgia, serif" font-size="82">DAR</text>
+  <text x="225" y="392" fill="#17130f" font-family="Georgia, serif" font-size="82">SAFFRON</text>
+  <line x1="225" y1="450" x2="505" y2="450" stroke="#b65324" stroke-width="5"/>
+  <text x="228" y="525" fill="#51483d" font-family="Arial, Helvetica, sans-serif" font-size="24">MENU / IDENTITY / PACKAGING</text>
+  <path d="M765 315h300l-32 565H797z" fill="#17130f" filter="url(#shadow)"/>
+  <ellipse cx="915" cy="315" rx="152" ry="50" fill="#fffaf0"/>
+  <text x="842" y="590" fill="#f7efe2" font-family="Georgia, serif" font-size="62">DAR</text>
+  <text x="850" y="648" fill="#b65324" font-family="Arial, Helvetica, sans-serif" font-size="20">CAFE</text>
+  <rect x="1120" y="390" width="300" height="390" fill="#b65324" filter="url(#shadow)"/>
+  <path d="M1120 390h300l-35-95h-230z" fill="#8e3f21"/>
+  <text x="1170" y="585" fill="#fffaf0" font-family="Georgia, serif" font-size="58">SAFFRON</text>
+  <text x="1172" y="635" fill="#fffaf0" font-family="Arial, Helvetica, sans-serif" font-size="20">TAKEAWAY BOX</text>
+  <path d="M675 925c240 55 492 44 756-33" stroke="#17130f" stroke-width="4" fill="none"/>
+</svg>
