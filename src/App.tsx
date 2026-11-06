@@ -204,7 +204,7 @@ function App() {
             </a>
           ))}
           <a className="nav-cta" href="#contact" onClick={closeMenu}>
-            Start a project <span aria-hidden="true">↗</span>
+            START A PROJECT <span aria-hidden="true">↗</span>
           </a>
         </nav>
       </header>
@@ -216,34 +216,36 @@ function App() {
           <>
         <section className="hero section-pad" aria-labelledby="hero-title">
           <div className="hero-copy" data-reveal>
-            <p className="eyebrow dot-label">Mehdi Boujra · Independent design practice</p>
+            <p className="eyebrow dot-label">Independent graphic designer</p>
             <h1 id="hero-title">
-              Identities with
-              <span>a <em>point of view.</em></span>
+              Your brand
+              <span>deserves more</span>
+              <span>than <em>ordinary</em></span>
+              <span>design.</span>
             </h1>
             <p className="hero-lede">
-              I turn good ideas into brand identities, campaigns and digital experiences people remember — made with intent, not noise.
+              I help ambitious businesses turn ideas into distinctive brands, packaging and digital experiences that connect, inspire and last.
             </p>
             <div className="hero-actions" aria-label="Primary actions">
-              <a className="button button-dark" href="#contact">
-                Start a project <span aria-hidden="true">↗</span>
+              <a className="button button-dark" href="#work">
+                Explore the work <span aria-hidden="true">↗</span>
               </a>
-              <a className="button button-quiet" href="#work">
-                View selected work
+              <a className="button button-quiet" href="#contact">
+                Let’s talk
               </a>
             </div>
             <dl className="hero-highlights">
               <div>
-                <dt>Based in</dt>
-                <dd>Marrakech, Morocco</dd>
+                <dt>07</dt>
+                <dd>Projects</dd>
               </div>
               <div>
-                <dt>Working across</dt>
-                <dd>Identity · Campaign · Digital</dd>
+                <dt>04</dt>
+                <dd>Industries</dd>
               </div>
               <div>
-                <dt>Available for</dt>
-                <dd>Selected collaborations</dd>
+                <dt>100%</dt>
+                <dd>Committed to impact</dd>
               </div>
             </dl>
           </div>
@@ -257,12 +259,16 @@ function App() {
             <div className="hero-collage-campaign" aria-hidden="true">
               <img src={assets.heroCampaign} alt="" />
             </div>
-            <figcaption className="hero-collage-caption">
-              <span>Selected work</span>
-              <span>01—07</span>
-            </figcaption>
+            <div className="hero-collage-disciplines" aria-hidden="true">
+              <span>Brands</span>
+              <span>Packaging</span>
+              <span>Print</span>
+              <span>Digital</span>
+            </div>
+            <span className="hero-collage-compass" aria-hidden="true">+</span>
+            <p className="hero-collage-note" aria-hidden="true">From strategy<br />to real results.</p>
             <a className="scroll-cue" href="#work">
-              Scroll to selected work <span aria-hidden="true">↓</span>
+              Scroll <span aria-hidden="true">↓</span>
             </a>
           </figure>
         </section>
@@ -271,10 +277,10 @@ function App() {
           <div className="work-heading" data-reveal>
             <div className="work-heading-copy">
               <p className="eyebrow line-label">Selected work</p>
-              <h2 id="work-title">Work made to<br /><em>stay with you.</em></h2>
+              <h2 id="work-title">A few worlds I’ve built.</h2>
             </div>
             <div className="work-heading-side">
-              <p>Brand worlds with character, clarity and a reason to exist.</p>
+              <p>Identities, campaigns and digital work.</p>
               <a className="view-all" href="#work-grid">
                 All projects ({String(projects.length).padStart(2, '0')}) <span aria-hidden="true">↗</span>
               </a>
@@ -293,8 +299,8 @@ function App() {
           <div className="services-layout">
             <div className="services-title" data-reveal>
               <p className="eyebrow line-label">Services</p>
-              <h2 id="services-title">What we can make <span aria-hidden="true">together.</span></h2>
-              <p className="services-lede">A focused creative partnership for brands that care how they show up in the world.</p>
+              <h2 id="services-title">Design for real ambitions<span aria-hidden="true">.</span></h2>
+              <p className="services-lede">Strategic and expressive design solutions to help your brand stand out and grow.</p>
               <a className="services-cta" href="#contact">
                 Have a brief? Start here <span aria-hidden="true">↗</span>
               </a>
@@ -345,8 +351,8 @@ function App() {
           </div>
           <div className="process-heading" data-reveal>
             <p className="eyebrow line-label">My Process</p>
-            <h2 id="process-title">From a good instinct<br />to a <em>clear system.</em></h2>
-            <p>Enough structure to make decisions easy. Enough room to make something unexpected.</p>
+            <h2 id="process-title">A clear path<br />from brief to final file.</h2>
+            <p>A structured and collaborative process, designed to bring clarity and the best results.</p>
           </div>
           <ol className="process-grid">
             {processSteps.map((step) => (
@@ -371,11 +377,11 @@ function App() {
           </figure>
           <div className="about-copy" data-reveal>
             <p className="eyebrow line-label">About</p>
-            <h2 id="about-title">Independent<br />by design.</h2>
+            <h2 id="about-title">Design, from Marrakech.</h2>
             <p>
               I’m Mehdi, an independent graphic designer. I work directly with clients and small teams on identity, packaging and digital work.
             </p>
-            <p className="about-note">One point of contact. One clear creative direction. No hand-offs in the middle.</p>
+            <p className="about-note">One point of contact, from first sketch to final file.</p>
             <a className="text-link" href="#contact">Talk through a project <span aria-hidden="true">↗</span></a>
           </div>
           <aside className="about-side-note" aria-label="Creative thinking, clear results" data-reveal>
@@ -387,8 +393,8 @@ function App() {
         <section id="contact" className="contact section-pad" aria-labelledby="contact-title">
           <div className="contact-intro" data-reveal>
             <p className="eyebrow">Contact</p>
-            <h2 id="contact-title">Make it<br /><em>matter.</em></h2>
-            <p>Tell me what you’re building. A few good details are all we need to start.</p>
+            <h2 id="contact-title">Let’s build<br />something great.</h2>
+            <p>A few details are plenty. I’ll take it from there.</p>
             <div className="contact-links" aria-label="Contact links">
               {socialProfiles.map((profile) => (
                 <ContactLink key={profile.label} label={profile.label} value={profile.value} />
